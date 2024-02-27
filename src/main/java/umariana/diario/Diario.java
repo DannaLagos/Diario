@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 /**
- *
+ * @author MARIA VALLEJO
  * @author DANNA LAGOS
  */
 public class Diario {
