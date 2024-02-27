@@ -50,7 +50,7 @@ public Diario() {
                     break;
                 case 2:
                     if (misEntradas.size() == 0) {
-                        System.out.println("No hay productos agregados.");
+                        System.out.println("No hay entradas agregados.");
                     } else {
                         //Llama al metodo que llama al Inventario
                         consultarEntrada();
@@ -58,14 +58,14 @@ public Diario() {
                     break;
                 case 3:
                     if (misEntradas.size() == 0) {
-                        System.out.println("No hay productos agregados.");
+                        System.out.println("No hay entradas agregados.");
                     } else {
                         eliminarEntrada();                       
                     }
                     break;
                 case 4:
                     if(misEntradas.size()==0){
-                        System.out.println("No hay productos agregados");
+                        System.out.println("No hay entradas agregados");
                     } else {
                         //Llama al metodo y elimina el producto 
                        modificarEntrada();
