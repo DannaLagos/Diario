@@ -87,7 +87,7 @@ public Diario() {
     
     //Agrega nuevo Producto
    private void agregarEntrada() {
-        //Llama al metodo que Agrega el Producto 
+        //Llama al metodo que Agrega la Entrada 
         lector.nextLine();
         //Obtener la descripción
         System.out.println("Ingrese la Descripcion de la Entrada: ");
@@ -115,7 +115,7 @@ public Diario() {
     
    }
 
-    //Muestra el inventario
+    //Consulta la Entrada
     private void consultarEntrada() {
     System.out.print("Ingrese la fecha de la Entrada que desea consultar (dd-MM-yyyy): ");
     String fechaBuscada = lector.nextLine(); // El usuario ingresa la fecha
@@ -182,7 +182,7 @@ public Diario() {
     public static void main(String[] args) {
         //Crea un Objeto de la clase tienda1
         Diario organizador = new Diario();
-        //Llama al metodo de mostrarmenu de Opciones para la ejecutacion
+        //Llama al metodo de mostrar menu de Opciones para la ejecutacion
         organizador.mostrarMenu();
     }
 }
